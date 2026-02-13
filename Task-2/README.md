@@ -104,3 +104,10 @@ This project demonstrates my ability to:
 - Build interactive Power BI dashboards
 - Extract meaningful business insights
 - Present data professionally using visual storytelling
+
+---
+
+# 👩‍💻 Author
+
+**Ritvika Reddy**  
+Data Analyst Internship Project  
