@@ -1,5 +1,4 @@
 # 📊 Data Analyst Internship Portfolio
-  
 
 ---
 
@@ -9,7 +8,7 @@ This repository contains all tasks completed as part of my Data Analyst Internsh
 
 Each task focuses on developing practical skills in data cleaning, preprocessing, analysis, and visualization using real-world datasets.
 
-The tasks will be updated regularly as I complete new assignments.
+The tasks are updated regularly as I complete new assignments.
 
 ---
 
@@ -25,6 +24,7 @@ To build strong hands-on experience in:
 - Exploratory Data Analysis (EDA)
 - Data Visualization
 - Feature Engineering
+- Data Storytelling using Dashboards
 
 ---
 
@@ -55,9 +55,36 @@ Netflix Movies and TV Shows Dataset
 
 ---
 
-## 🔜 Task 2: (Upcoming)
+## ✅ Task 2: Data Visualization & Storytelling using Power BI (Completed)
 
-Details will be updated after completion.
+### 📂 Dataset Used:
+Sales Dataset (Sales Export 2019–2020)
+
+### 🛠 Tool Used:
+- Power BI Desktop
+
+### 📊 Dashboard Pages Created:
+
+#### 🔹 Page 1: Sales Performance Dashboard
+- Total Revenue KPI (€113.36M)
+- Total Profit
+- Total Orders
+- Average Order Value
+- Sales by Country
+- Sales by Device Type
+- Sales by Category
+- Profit Trend Over Time
+- Interactive Filters (Slicers)
+
+#### 🔹 Page 2: Executive Summary (Storytelling Page)
+Converted dashboard visuals into business insights.
+
+### 📌 Key Insights:
+- Generated €113.36M in total revenue.
+- Portugal is the highest revenue-generating country.
+- PC devices contribute the largest revenue share (~79%).
+- Sales performance varies significantly across categories.
+- Profit remains stable with moderate fluctuations.
 
 ---
 
@@ -69,11 +96,16 @@ Details will be updated after completion.
 
 # 🛠 Tools & Technologies Used
 
+### Programming & Data Processing
 - Python
 - Pandas
 - NumPy
 - Jupyter Notebook
+
+### Data Visualization
+- Power BI
+
+### Version Control
 - GitHub
 
 ---
-
