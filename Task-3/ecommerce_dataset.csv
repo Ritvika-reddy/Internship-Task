@@ -1,0 +1,11 @@
+order_id,customer_name,product,category,price,quantity,country,order_date
+101,Amit,Laptop,Electronics,800,1,India,2023-01-10
+102,Sara,Phone,Electronics,500,2,USA,2023-01-12
+103,John,Tablet,Electronics,300,1,UK,2023-01-15
+104,Priya,Laptop,Electronics,850,1,India,2023-02-01
+105,David,Headphones,Accessories,50,3,USA,2023-02-05
+106,Meena,Phone,Electronics,550,1,India,2023-02-10
+107,Rahul,Tablet,Electronics,320,2,UK,2023-02-18
+108,Anita,Laptop,Electronics,900,1,India,2023-03-01
+109,Karan,Phone,Electronics,600,1,USA,2023-03-05
+110,Neha,Headphones,Accessories,70,2,UK,2023-03-10
