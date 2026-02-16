@@ -25,6 +25,7 @@ To build strong hands-on experience in:
 - Data Visualization
 - Feature Engineering
 - Data Storytelling using Dashboards
+- SQL for Data Analysis
 
 ---
 
@@ -88,10 +89,40 @@ Converted dashboard visuals into business insights.
 
 ---
 
-## 🔜 Task 3: (Upcoming)
+## ✅ Task 3: SQL for Data Analysis using PostgreSQL (Completed)
 
-Details will be updated after completion.
+### 📂 Dataset Used:
+E-commerce Sales Dataset
 
+### 🛠 Tools Used:
+- PostgreSQL
+- pgAdmin 4
+- SQL
+
+### 🗄 Database Work:
+- Installed PostgreSQL and pgAdmin
+- Created database: `ecommerce_db`
+- Created table and imported dataset
+- Performed SQL queries for analysis
+
+### 🧠 SQL Concepts Applied:
+- SELECT statements
+- WHERE filtering
+- ORDER BY sorting
+- Aggregate functions (SUM, AVG, COUNT)
+- GROUP BY and HAVING
+- Subqueries
+- Views creation
+- Index creation for optimization
+
+### 📊 Analysis Performed:
+- Retrieved and filtered sales data
+- Calculated total revenue and average price
+- Analyzed revenue by country and category
+- Identified high-value transactions
+- Created sales summary view
+- Optimized queries using indexing
+  
 ---
 
 # 🛠 Tools & Technologies Used
@@ -104,6 +135,10 @@ Details will be updated after completion.
 
 ### Data Visualization
 - Power BI
+
+### Database & Querying
+- PostgreSQL
+- SQL
 
 ### Version Control
 - GitHub
