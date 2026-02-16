@@ -1,0 +1,83 @@
+-- =========================================
+-- Task 3: SQL for Data Analysis (PostgreSQL)
+-- Data Analyst Internship
+-- =========================================
+
+-- 1. View complete dataset
+SELECT * FROM ecommerce;
+
+-- 2. Display customer name and country
+SELECT customer_name, country
+FROM ecommerce;
+
+-- 3. Orders from India
+SELECT *
+FROM ecommerce
+WHERE country = 'India';
+
+-- 4. Orders with price greater than 500
+SELECT *
+FROM ecommerce
+WHERE price > 500;
+
+-- 5. Sort data by price (highest to lowest)
+SELECT *
+FROM ecommerce
+ORDER BY price DESC;
+
+-- 6. Sort data by price (lowest to highest)
+SELECT *
+FROM ecommerce
+ORDER BY price ASC;
+
+-- 7. Total revenue calculation
+SELECT SUM(price * quantity) AS total_revenue
+FROM ecommerce;
+
+-- 8. Average product price
+SELECT AVG(price) AS average_price
+FROM ecommerce;
+
+-- 9. Total number of orders
+SELECT COUNT(order_id) AS total_orders
+FROM ecommerce;
+
+-- 10. Revenue by country (GROUP BY)
+SELECT country,
+SUM(price * quantity) AS revenue
+FROM ecommerce
+GROUP BY country;
+
+-- 11. Revenue by category (GROUP BY)
+SELECT category,
+SUM(price * quantity) AS revenue
+FROM ecommerce
+GROUP BY category;
+
+-- 12. Countries with revenue greater than 1000 (HAVING)
+SELECT country,
+SUM(price * quantity) AS revenue
+FROM ecommerce
+GROUP BY country
+HAVING SUM(price * quantity) > 1000;
+
+-- 13. Subquery: products with price above average
+SELECT customer_name, product, price
+FROM ecommerce
+WHERE price > (
+    SELECT AVG(price) FROM ecommerce
+);
+
+-- 14. Create a VIEW for sales summary
+CREATE VIEW sales_summary AS
+SELECT country,
+SUM(price * quantity) AS total_sales
+FROM ecommerce
+GROUP BY country;
+
+-- 15. View the created VIEW
+SELECT * FROM sales_summary;
+
+-- 16. Create INDEX to optimize search
+CREATE INDEX idx_country
+ON ecommerce(country);
