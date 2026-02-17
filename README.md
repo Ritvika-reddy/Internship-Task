@@ -26,6 +26,7 @@ To build strong hands-on experience in:
 - Feature Engineering
 - Data Storytelling using Dashboards
 - SQL for Data Analysis
+- Interactive Dashboard Design
 
 ---
 
@@ -122,7 +123,36 @@ E-commerce Sales Dataset
 - Identified high-value transactions
 - Created sales summary view
 - Optimized queries using indexing
-  
+
+---
+
+## ✅ Task 4: Interactive Dashboard Design using Power BI (Completed)
+
+### 📂 Dataset Used:
+Bank Customer Dataset
+
+### 🛠 Tool Used:
+- Power BI Desktop
+
+### 🎯 Objective:
+To design an interactive dashboard for business stakeholders that provides meaningful insights and supports decision-making.
+
+### 📊 Dashboard Features:
+- KPI Cards (Total Customers, Average Balance, Loan Customers)
+- Customer segmentation by job and education
+- Deposit subscription analysis
+- Balance distribution by age
+- Interactive slicers (Job, Education, Marital status)
+- Clean and professional dashboard design
+- Time-series and comparative analysis
+
+### 📌 Key Insights:
+- The dataset contains approximately 460K customers.
+- Majority of customers belong to management and blue-collar job categories.
+- Average balance analysis highlights financial distribution among customers.
+- Deposit subscription comparison shows fewer customers opted for term deposits.
+- Customers aged between 30–40 maintain higher balances.
+
 ---
 
 # 🛠 Tools & Technologies Used
