@@ -154,6 +154,32 @@ To design an interactive dashboard for business stakeholders that provides meani
 - Customers aged between 30–40 maintain higher balances.
 
 ---
+## ✅ Task 5: Exploratory Data Analysis using Python (Completed)
+
+### Dataset Used:
+Titanic Dataset
+
+### Tools Used:
+Python, Pandas, Matplotlib, Seaborn
+
+## 📌 Objective
+The objective of this task is to perform Exploratory Data Analysis (EDA) on the Titanic dataset using Python libraries.  
+The goal is to understand patterns, trends, and relationships within the dataset and extract meaningful insights through visualization.
+
+## 📊 Analysis Performed:
+- Data cleaning and missing value handling
+- Univariate and bivariate analysis
+- Correlation heatmap and pairplot
+- Survival analysis based on gender and class
+- Data visualization and insights generation
+
+## 📌 Key Insights:
+- Female passengers had higher survival rate
+- First-class passengers survived more
+- Fare and class influenced survival
+- Majority passengers aged 20–40
+
+---
 
 # 🛠 Tools & Technologies Used
 
