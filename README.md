@@ -180,7 +180,52 @@ The goal is to understand patterns, trends, and relationships within the dataset
 - Majority passengers aged 20–40
 
 ---
+---
 
+## ✅ Task 6: Sales Trend Analysis Using SQL Aggregations (Completed)
+
+### 📂 Dataset Used:
+
+Sales Dataset (sales_data.csv)
+
+### 🛠 Tools Used:
+
+* PostgreSQL
+* pgAdmin 4
+* SQL
+
+### 🎯 Objective:
+
+To analyze monthly revenue and order volume using SQL aggregate functions and grouping techniques.
+
+### 🧠 SQL Concepts Applied:
+
+* Aggregate functions: SUM(), COUNT(), AVG()
+* GROUP BY and ORDER BY
+* EXTRACT() function for month and year
+* Sorting and filtering data
+* DISTINCT counting
+* Time-based sales analysis
+
+### 📊 Analysis Performed:
+
+* Calculated monthly revenue using SUM()
+* Calculated total order volume using COUNT()
+* Performed monthly sales trend analysis
+* Identified top 3 months with highest sales
+* Analyzed yearly revenue performance
+* Region-wise sales analysis
+* Average monthly sales calculation
+
+### 📌 Key Insights:
+
+* Monthly revenue trends identified using time-based grouping
+* Top-performing months generated highest revenue
+* Regional sales comparison showed variation across regions
+* Yearly revenue provided overall business performance view
+* SQL aggregation helped in summarizing large sales data effectively
+
+---
 # 🛠 Tools & Technologies Used
 
 ### Programming & Data Processing
