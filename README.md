@@ -226,6 +226,57 @@ To analyze monthly revenue and order volume using SQL aggregate functions and gr
 * SQL aggregation helped in summarizing large sales data effectively
 
 ---
+---
+
+## ✅ Task 7: Basic Sales Summary using SQLite & Python (Completed)
+
+### 📂 Dataset Used:
+
+Custom Sales Dataset created inside SQLite database (sales_data.db)
+
+### 🛠 Tools Used:
+
+* Python
+* SQLite (sqlite3)
+* Pandas
+* Matplotlib
+* Jupyter Notebook
+
+### 🎯 Objective:
+
+To connect Python with a SQLite database, execute SQL queries inside Python, and visualize sales data using a simple bar chart.
+
+### 🧠 Concepts Applied:
+
+* Connecting Python to database using sqlite3
+* Writing and executing SQL queries inside Python
+* Using aggregate functions (SUM, GROUP BY)
+* Loading SQL results into Pandas DataFrame
+* Data visualization using Matplotlib
+* Saving charts as image files
+
+### 📊 Analysis Performed:
+
+* Created SQLite database and sales table
+* Inserted sample sales data
+* Executed SQL query to calculate:
+
+  * Total quantity sold per product
+  * Total revenue per product
+* Loaded results into pandas dataframe
+* Displayed summarized output
+* Created bar chart showing revenue by product
+* Saved chart as image
+
+### 📌 Key Insights:
+
+* Laptop generated highest revenue among products
+* Mobile had highest quantity sold
+* SQL aggregation helped summarize product-wise performance
+* Visualization made revenue comparison easy to understand
+
+---
+
 # 🛠 Tools & Technologies Used
 
 ### Programming & Data Processing
