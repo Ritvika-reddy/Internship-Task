@@ -276,6 +276,43 @@ To connect Python with a SQLite database, execute SQL queries inside Python, and
 * Visualization made revenue comparison easy to understand
 
 ---
+✅ Task 8: Simple Sales Dashboard Design (Completed)
+
+📂 Dataset Used:
+Superstore Sales Dataset (Sample - Superstore.csv)
+
+🛠 Tools Used:
+Power BI Desktop
+Python (Pandas – for data cleaning)
+
+🎯 Objective:
+To design a simple interactive sales dashboard that shows sales performance by month, region, and category, and to generate meaningful business insights using visualizations.
+
+🧠 Concepts Applied:
+Data cleaning using Python
+Date formatting and feature creation (Month-Year)
+Interactive dashboard design
+Data visualization using Power BI
+Business insight generation
+Use of slicers and KPI cards
+
+📊 Analysis & Dashboard Created:
+Imported cleaned dataset into Power BI
+Converted Order Date to Month-Year format
+Created Line Chart showing monthly sales trend
+Created Bar Chart for sales by region
+Created Donut Chart for sales by category
+Added KPI card for total sales
+Added slicer/filter for region-wise analysis
+Designed clean and interactive dashboard layout
+
+📌 Key Insights:
+Technology category generated the highest overall sales contribution
+West region recorded the highest sales performance
+South region showed comparatively lower sales
+Monthly sales trend indicated a gradual decline over time
+
+--- 
 
 # 🛠 Tools & Technologies Used
 
